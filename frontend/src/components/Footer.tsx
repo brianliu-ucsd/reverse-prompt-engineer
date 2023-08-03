@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             }}
         >
             <Toolbar disableGutters>
-                <SettingsBackupRestoreIcon sx={{ ml: '3%', mr: '1%' }} />
+                <SettingsBackupRestoreIcon sx={{ ml: '3%', mr: '1%' }} /> 
                 <Typography variant="h6" sx={{ color: 'offwhite' }}>
                     Reverse Prompt Engineer
                 </Typography>
