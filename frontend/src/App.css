@@ -1,0 +1,13 @@
+.background-image {
+    background-image: url('./img/background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.MuiTypography-h6 {
+    text-transform: uppercase;
+    white-space: nowrap;
+}
