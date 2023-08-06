@@ -1,5 +1,5 @@
 .background-image {
-    background-image: url('./img/background.svg');
+    background-image: url('./static/img/background.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,10 @@
 }
 
 .MuiTypography-h6 {
-    text-transform: uppercase;
+    white-space: nowrap;
+    color: white;
+}
+
+.MuiTypography-body1 {
     white-space: nowrap;
 }
