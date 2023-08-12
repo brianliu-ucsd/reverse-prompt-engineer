@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Grid, Link } from '@mui/material';
-import SettingsBackupRestoreIcon from '@mui/icons-material/SettingsBackupRestore';
+import Logo from './Logo';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './../App.css';
@@ -13,24 +13,16 @@ const Footer: React.FC = () => {
                 position="absolute" 
                 sx={{ 
                     width: '100%', 
-                    backgroundColor: 'rgb(10,0,10,0.75)', 
+                    backgroundColor: 'rgb(10,0,10,0.9)', 
                     top: 'auto',
                     bottom: '0',
+                    paddingLeft: '2%',
+                    paddingRight: '2%'
                 }}
             >
                 <Toolbar disableGutters>
-                    <Typography variant="h6" 
-                    sx={{ 
-                        color: '#0fb696', 
-                        fontFamily: 'Avenir', 
-                        letterSpacing: '.2rem',
-                        fontSize: '1.75rem', 
-                        ml: '2%',
-                    }}>
-                        ReverseGPT
-                    </Typography>
-                    <SettingsBackupRestoreIcon sx={{ ml: '0.5rem' }}></SettingsBackupRestoreIcon>
-                    <Grid container justifyContent="flex-end" alignItems="center" spacing={1} marginRight={'2%'}>
+                    <Logo/>
+                    <Grid container justifyContent="flex-end" alignItems="center" spacing={1}>
                         <Grid item>
                             <Typography variant="body1" sx={{ color: 'white', marginRight: '0.75rem' }}>
                                 Created by Brian Liu
